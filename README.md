@@ -78,6 +78,8 @@
 [![GitHub Activity Graph](https://github.com/users/gzbsingh/contributions?to=2022-04-08)
 
 
+[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=gzbsingh&bg_color=ffffff&color=318DE7&line=318DE7&point=318DE7&area=true&hide_border=true)](https://github.com/gzbsingh)
+![GitHub Activity Graph](https://githubchart-api.herokuapp.com/github/gzbsingh)
 
 
 
