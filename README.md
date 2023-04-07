@@ -28,9 +28,9 @@
 	&emsp;
 
 </p>
+## 🔥 Streak Stats
 
-
-
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=gzbsingh&theme=merko" alt="Ramanjeet Singh" /></p>
  ### 👉 Software & Tools
  
 <p align="center">
@@ -62,12 +62,23 @@
 
   <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
- 
+  <p align="center">
+    <a href="https://github.com/gzbsingh/github-readme-stats"><img alt="7oSkaaa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=gzbsingh&show_icons=true&count_private=true&theme=merko" height="192px"/></a>
+<br/>
+  &nbsp;
+	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gzbsingh&langs_count=10&show_icons=true&locale=en&layout=compact&theme=merko" alt="gzbsingh" height="192px"/>
+  <br/>
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+  </p>
 
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-  
+   <a href="https://github.com/gzbsingh"><img alt="gzbsingh's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=gzbsingh&custom_title=gzbsingh's%20Contribution%20Graph&theme=react-dark" /></a>
+  <br/>
+ <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 
 
 
