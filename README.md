@@ -74,10 +74,8 @@
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   <a href="https://github.com/gzbsingh"><img alt="gzbsingh's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=gzbsingh&custom_title=gzbsingh's%20Contribution%20Graph&theme=react-dark" /></a>
-  <br/>
- <!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+ <!-- GitHub Activity Graph -->
+[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=gzbsingh&bg_color=ffffff&color=000000&line=000000&point=00ff00)](https://github.com/gzbsingh/github-readme-activity-graph)
 
 
 
