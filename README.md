@@ -75,7 +75,7 @@
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
  <!-- GitHub Activity Graph -->
-[![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=gzbsingh)
+[![GitHub Activity Graph](https://github.com/users/gzbsingh/contributions?to=2022-04-08)
 
 
 
