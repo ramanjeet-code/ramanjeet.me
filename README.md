@@ -75,7 +75,8 @@
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
  <!-- GitHub Activity Graph -->
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=gzbsingh&theme=github)
+[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=gzbsingh&theme=github)](https://activity-graph.herokuapp.com/graph?username=gzbsingh&bg_color=white&color=gray&line=gray&point=green&area=true&hide_border=true
+)
 
 
 
