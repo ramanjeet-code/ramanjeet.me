@@ -61,7 +61,7 @@
 ## 📊 Github Stats
 
   <summary><b>💻 GitHub Profile Stats</b></summary>
-  <br/>
+  <br/> 
   <p align="center">
     <a href="https://github.com/gzbsingh/github-readme-stats"><img alt="7oSkaaa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=gzbsingh&show_icons=true&count_private=true&theme=merko" height="192px"/></a>
 <br/>
