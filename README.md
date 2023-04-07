@@ -75,12 +75,9 @@
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
  <!-- GitHub Activity Graph -->
-[![GitHub Activity Graph](https://github.com/users/gzbsingh/contributions?to=2022-04-08)
+<img src="https://ghchart.rshah.org/013220/gzbsingh" alt="gzbsingh's Blue Github Chart" />
 
-
-[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=gzbsingh&bg_color=ffffff&color=318DE7&line=318DE7&point=318DE7&area=true&hide_border=true)](https://github.com/gzbsingh)
-![GitHub Activity Graph](https://githubchart-api.herokuapp.com/github/gzbsingh)
-
+<img src="https://github-readme-activity-graph.cyclic.app/graph?username=gzbsingh&theme=merko"/>
 
 
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
