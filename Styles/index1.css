@@ -1,0 +1,169 @@
+/* Default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  height: 100%;
+  color: aliceblue;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #efdede;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  background-color: #333333;
+}
+
+.logo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+.username {
+  display: none;
+}
+
+ul li a {
+  color: #efdede;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+.mid-logo-div {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo_img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.animation-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .username {
+    display: block;
+  }
+
+  .nav-links a.active,
+  .nav-links a:hover {
+    background-color: transparent;
+  }
+
+  .logo ul {
+    width: auto;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+
+  .nav-links.show {
+    height: 250px;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #bd1919;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-links a.active,
+  .nav-links a:hover {
+    background-color: #333333;
+  }
+}
