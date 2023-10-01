@@ -569,7 +569,7 @@ section .title::after {
 }
 
 .project .carousel .project-card img {
-  height: 250px;
+  height: 173px;
   width: 330px;
   object-fit: cover;
   border-radius: 3%;
