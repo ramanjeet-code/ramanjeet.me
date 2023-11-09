@@ -31,6 +31,7 @@ $(document).ready(function () {
   $(".menu-btn").click(function () {
     $("#nav-menu .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
+    console.log("hii");
   });
 
   // typing text animation script
@@ -93,3 +94,21 @@ function openDrive2() {
       "https://drive.google.com/file/d/1laqk75epdlckJ7rXuXR2RMe-zueVxQfB/view?usp=sharing")
   );
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const menuBtn = document.querySelector(".menu-btn");
+  const menu = document.querySelector("#nav-menu .menu");
+
+  // // Toggle menu when menu button is clicked
+  // menuBtn.addEventListener("click", function () {
+  //   menu.classList.toggle("active");
+  // });
+
+  // Close menu when a menu item is clicked
+  const menuItems = document.querySelectorAll("#nav-menu .menu li a");
+  menuItems.forEach(function (item) {
+    item.addEventListener("click", function () {
+      menu.classList.remove("active");
+      $(".menu-btn i").toggleClass("active");
+    });
+  });
+});

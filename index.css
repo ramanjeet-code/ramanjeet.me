@@ -116,7 +116,7 @@ section .title::after {
 
 #nav-menu .max-width {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -819,7 +819,13 @@ footer span a:hover {
     display: block;
     z-index: 999;
   }
-
+  .skills .skills-content .column {
+    width: calc(50% - 30px);
+    /* border: 2px solid black; */
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
   .menu-btn i.active:before {
     content: "\f00d";
   }
@@ -937,7 +943,7 @@ footer span a:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 414px) {
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -950,7 +956,7 @@ footer span a:hover {
     text-align: center;
   }
   #nav-menu{
-    width: 90%;
+    width: 95%;
   }
   .home .home-content .text-3 {
     font-size: 27px;
@@ -1013,7 +1019,7 @@ footer span a:hover {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 
   /* navbar styling */
   #nav-menu {
@@ -1027,6 +1033,11 @@ footer span a:hover {
     height: 100px;
     font-size: 2px;
   }
+  #nav-menu .max-width {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
   #nav-menu .logo a {
     color: #fff;
     font-size: 32px;
@@ -1114,19 +1125,7 @@ footer span a:hover {
     /* border: 3px solid red; */
   }
 }
-@media (max-width: 1069px){
-  #nav-menu {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    /* padding: 30px 0; */
-    font-family: "Ubuntu", sans-serif;
-    transition: all 0.3s ease;
-       background-color: blue;
-    height: 100px;
-    font-size: 2px;
-  }
-}
+
 @media (max-width: 282px) {
   #nav-menu {
     position: fixed;
@@ -1145,6 +1144,10 @@ footer span a:hover {
     font-weight: 600;
     
   }
+#mb {
+  
+    margin-bottom: 40px;
+}
   #nav-menu .logo {
     color: #fff;
     font-size: 32px;
@@ -1152,17 +1155,17 @@ footer span a:hover {
     height: 100px;
   }
 }
-@media (max-width: 413px) {
+@media (max-width: 414px) {
   #nav-menu {
     position: fixed;
-    width: 95%;
+    width: 98%;
     z-index: 999;
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
        background-color: blue;
-    height: 100px;
-    font-size: 2px;
+    height: 102px;
+    font-size: 1px;
   }
   #nav-menu .logo a {
     color: #fff;
@@ -1176,4 +1179,20 @@ footer span a:hover {
     font-weight: 600;
     height: 100px;
   }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  #nav-menu {
+    position: fixed;
+    /* width: 90%; */
+    z-index: 999;
+    /* padding: 30px 0; */
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+       background-color: blue;
+    height: 100px;
+    font-size: 2px;
+  }
+  #about {
+    height: 70vh;
+}
 }
